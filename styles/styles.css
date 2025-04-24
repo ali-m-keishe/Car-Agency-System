@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+.nav {
+    flex: 0 0 10%;
+    background-color: #2a2a2a;
+    padding: 20px;
+}
+
+.nav a {
+    display: block;
+    padding: 10px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.nav a:hover, .nav a.active {
+    background-color: #444;
+    color: #fff;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    font-size: 24px;   
+}
+
+.header img {
+    width: 100px;
+    height: auto;
+}
+
+.header .nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.header .nav-links a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.header a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.footer img {
+    width: 50px;
+    height: auto;
+}
+
+.footer .contact-info {
+    text-align: right;
+}
+
+.main h1 {
+    color: #f1f1f1;
+}
+
+.main p {
+    color: #ccc;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="tel"], input[type="number"], select, textarea {
+    background-color: #333;
+    color: #f1f1f1;
+    border: 1px solid #555;
+    padding: 10px;
+    margin: 5px 0;
+    width: 98%;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="tel"]:focus, input[type="number"]:focus, select:focus, textarea:focus {
+    background-color: #444;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #555;
+    color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+th a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+tr img {
+    width: 100px;
+    height: auto;
+}
+.petrol {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.diesel {
+    background-color: #d1e0e0;
+    color: #000;
+}
+.electric {
+    background-color: #e0f7fa;
+    color: #000;
+}
+.hybrid {
+    background-color: #e8f5e9;
+    color: #000;
+}
+
+a {
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+.error {
+    background-color: #ff4444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.confirmation-message {
+    color: green;
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #eaffea;
+    border-left: 6px solid #4CAF50;
+}
+
+.car-details-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-images {
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.car-images img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.car-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.marketing-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.future {
+    background-color: #e0f7fa; 
+    color: #000;
+}
+
+.current {
+    background-color: #c8e6c9; 
+    color: #000;
+}
+
+.past {
+    background-color: #ffcdd2; 
+    color: #000;
+}
